@@ -1,189 +1,47 @@
+:root {
+    --orange: rgb(250, 108, 24);
+    --light: #F7F7F7;
+    --dark: #323643;
+    --dark-light: #606470;
+    --font1: 'Electrolize', sans-serif;
+    --font2: 'JetBrains Mono', monospace;
+    --font3: 'Open Sans', sans-serif;
+    --font4: 'Open Sans Condensed', sans-serif;
+  }
+
+
 * {
     box-sizing: border-box;
-    font-family: 'Russo One', sans-serif;
+
 }
 
-/** Styling for Container - Top**/
-.container-fluid {
-    background-color: #fa6c18;
-    padding: 3% 20%;    
+body {
+    margin: 0 0;
+    padding: 0;
 }
 
-.title-div {
-    color: white;
-    text-align: center;
-    vertical-align: middle;
+.head-div {
+    background-image: url("./images/image-head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: var(--orange)
 }
 
-.menutop, .maintop{
-    padding: 3% 15%;
-}
-
-.title-image {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-.title {
-    font-size: 3vw;
-    text-align: left;
-    vertical-align: middle;
-} 
-
-i {
-    margin-right: 10px;
-}
-
-.menuBtns {
+.head-div h1 {
+    font-family: var(--font1);
+    font-size: 70pt;
+    margin-right: 5%;
     text-align: right;
-    
-}
-
-
-/** Styling for Container - Top**/
-.container-services {
-    padding: 5% 15%;
-    text-align: left;
-    color:#4A3F35;
-    margin-right: 0;
-}
-
-.container h1 {
-    margin: 7% 0;    
-    color: #fa6c18;
-    text-align: center;
-}
-
-.container-services h3 {
-    font-weight:bold ;
-}
-
-.service-item {
-    margin-bottom: 8%;
-}
-.service-item img {
-    margin: 15px 0;
-}
-
-/** Styling for Container - Top**/
-.coontainer-experience {
-    background-color: #2F2519;
-    padding: 5% 15%;
-    text-align: center;
-    color: #FA7D09;
-}
-
-.carousel-text {
-    padding: 2% 15%;
-    text-align: center;
-    color: #FA7D09;
-}
-
-.carousel-item img {
-    padding: 0 30% 5%;
-}
-
-.carousel-item h2 {
-    padding: 2% 0;
     font-weight: bold;
 }
-.carousel-item p {
-    color: #FA7D09;
-    font-size: 1.2rem;
+
+.menu {
+    margin: 25% 5%;
 }
 
-/** Styling for Container - Top**/
-.contact {
-    padding: 5% 15%;
-    text-align: center;
-    color: #FA7D09;
+.menu h2 {
+    font-family: var(--font2);
+    font-weight: bold;
 }
-
-.contact h1 {
-    margin-bottom: 5%;
-}
-
-
-@media screen and (max-width: 1200px) {
-
-    .title {
-        font-size: 10vw;
-    }
-
-    .menuBtns, .brand-name {
-        font-size: 5vw;
-    }
-
-    .brand-name a {
-        color: blue;
-    }
-
-    .container-services {
-        padding: 5% 5%;
-        text-align: left;
-        color:#4A3F35;
-        margin-right: 0;
-    }
-
-    .container-services h3 {
-        font-size: 4rem;;
-    }
-
-    .container-services p {
-        font-size: 3rem;;
-    }
-    
-    .service-item {
-        margin-bottom: 8%;
-    }
-    .service-item img {
-        margin: 15px 0;
-    }
-
-    .title button {
-        font-size: 4rem;
-    }
-
-    .hamburger {
-        font-size: 4rem;
-    }
-
-
-    /** Styling for Container - Top**/
-    .coontainer-experience {
-        background-color: #2F2519;
-        padding: 5% 5%;
-    }
-
-    .carousel-text {
-        padding: 2% 10%;
-        text-align: center;
-        color: #FA7D09;
-    }
-
-    .carousel-item img {
-        padding: 0 30% 5%;
-    }
-
-    .carousel-item h2 {
-        font-size: 4rem;
-        padding: 2% 0;
-        font-weight: bold;
-    }
-    .carousel-item p {
-        color: #FA7D09;
-        font-size: 3rem;
-    }
-
-    /** Styling for Container - Top**/
-    .contact .btn {
-        font-size: 2rem;
-    }
-
-    .section-title {
-        font-size: 4rem;
-        margin-bottom: 2%;
-    }
-   
-}
-
