@@ -57,12 +57,19 @@ body {
     font-size: 2vw;
 }
 
+.logo-head {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
 
 
 /*  CSS Stling for mobile devices    */
 
 @media only screen and (max-device-width: 390px) {
     
+
+    /*  Head Division Styles    */
     .head-div {
         background-image: url("./images/image-head-mobile.jpg");
         width: 100vw;
@@ -74,11 +81,17 @@ body {
     .head-div h1 {
         font-size: 18vw;
         position: absolute;
-        bottom: 5%;
+        bottom: 15%;
     }
 
     .menu {
         display: none;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
     }
 
   }
