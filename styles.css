@@ -1,3 +1,6 @@
+
+/*  Variable declaration*/
+
 :root {
     --orange: rgb(250, 108, 24);
     --light: #F7F7F7;
@@ -9,7 +12,7 @@
     --font4: 'Open Sans Condensed', sans-serif;
   }
 
-
+/*  General CSS Styling*/
 * {
     box-sizing: border-box;
 
@@ -20,28 +23,64 @@ body {
     padding: 0;
 }
 
+
+/*  Head Division Styles    */
+
 .head-div {
     background-image: url("./images/image-head.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    color: var(--orange)
+    min-height: 605px;
+    color: var(--orange);
+    position: relative;
 }
 
 .head-div h1 {
     font-family: var(--font1);
-    font-size: 70pt;
+    font-size: 7vw;
     margin-right: 5%;
     text-align: right;
     font-weight: bold;
 }
 
 .menu {
-    margin: 25% 5%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 .menu h2 {
     font-family: var(--font2);
     font-weight: bold;
+    font-size: 2vw;
 }
+
+
+
+/*  CSS Stling for mobile devices    */
+
+@media only screen and (max-device-width: 390px) {
+    
+    .head-div {
+        background-image: url("./images/image-head-mobile.jpg");
+        width: 100vw;
+        height: 100vh;
+        max-height: 93vh;
+        
+    }
+
+    .head-div h1 {
+        font-size: 18vw;
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+  }
+
+
