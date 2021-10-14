@@ -108,7 +108,7 @@ body {
     text-align: left;
 }
 
-.sub-title {
+.services-div .sub-title {
     text-align: left;
     color: var(--dark);
     font-weight: bold;
@@ -122,23 +122,44 @@ body {
 }
 
 .my-story-div .container {
-    padding: 0 5% 5% 0%;
-    margin-left: 0;
+    max-width: 2000px;
 }
 
-.container .sub-title {
+.my-story-div .sub-title {
+    font-family: var(--font1);
     color: var(--orange);
-    text-align: right;
+    text-align: left;
+}
+
+.my-story-div .menu-title {
+    font-family: var(--font1);
+    color: var(--orange);
+    text-align: left;
+}
+
+.my-story-div .para {
+    font-family: var(--font3);
+    color: var(--light);
+    text-align: left;
 }
 
 .name {
     color: var(--orange);
     writing-mode: vertical-rl;
     text-orientation: upright;
+    margin: 20vh auto;
+    padding-bottom: 5%;
+}
+
+.my-story-div .story,
+.my-story-div .photo {
+    margin: auto;
+    text-align: center;
 }
 
 .my-story-img {
     width: 40vw;
+    max-width: 800px;
 }
 
 
@@ -186,11 +207,44 @@ body {
     .services-div {
         text-align: center;
     }
+    .services-div .sub-title {
+        text-align: center;
+    }
     .services-div .container {
         text-align: center;
     }
     .img-services {
         width: 30%;
         padding-top: 10%;
+    }
+    /*  My Story Division Styles    */
+    .my-story-div .sub-title {
+        font-family: var(--font1);
+        color: var(--orange);
+        text-align: center;
+    }
+    .my-story-img {
+        width: 90vw;
+        max-width: 800px;
+        margin: auto;
+    }
+    .name {
+        writing-mode: horizontal-tb;
+        margin: 0;
+        font-size: 18vw;
+    }
+    .my-story-div .sub-title {
+        text-align: center;
+        font-size: 5rem;
+        padding-top: 5%;
+    }
+    .my-story-div .menu-title {
+        text-align: center;
+        font-size: 5rem;
+    }
+    .my-story-div .para {
+        text-align: center;
+        font-size: 3rem;
+        padding-bottom: 5%;
     }
 }
