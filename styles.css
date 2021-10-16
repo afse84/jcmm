@@ -96,7 +96,7 @@ body {
 }
 
 .row {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .img-services {
@@ -124,6 +124,10 @@ body {
 
 .my-story-div .container {
     max-width: 2000px;
+}
+
+.story {
+    padding: 3%;
 }
 
 .my-story-div .sub-title {
@@ -213,7 +217,7 @@ body {
     width: 100%;
     position: absolute;
     z-index: -1;
-    height: 60%;
+    height: 50%;
 }
 
 .get-in-touch .title {
