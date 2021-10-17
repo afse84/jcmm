@@ -23,6 +23,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: underline;
+    color: var(--dark);
+}
+
 .title {
     position: relative;
     text-align: center;
@@ -75,6 +80,11 @@ body {
     font-family: var(--font2);
     font-weight: bold;
     font-size: 2vw;
+}
+
+.menu a {
+    color: var(--orange);
+    text-decoration: none;
 }
 
 .logo-head {
@@ -278,11 +288,6 @@ body {
     color: var(--dark);
     font-size: 1.2rem;
     text-decoration: none;
-}
-
-a {
-    text-decoration: underline;
-    color: var(--dark);
 }
 
 
