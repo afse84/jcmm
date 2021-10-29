@@ -296,7 +296,7 @@ a {
 
 /*  CSS Stling for mobile devices    */
 
-@media only screen and (max-device-width: 390px) {
+@media only screen and (max-device-width: 500px) {
     .title {
         font-size: 7rem;
         text-align: center;
